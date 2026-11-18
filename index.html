@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0E5E6F">
 <title>دفتر نوفيكسا — دفتر ديون الزبائن للبقالات والمحلات، يعمل بدون إنترنت</title>
-<meta name="description" content="بدل الدفتر الورقي: سجّل من عليه دين وكم وبأي عملة (ريال جديد، ريال قديم، سعودي، دولار)، وذكّر الزبون بالواتساب بضغطة، وأرسل له كشف حساب PDF. مجاني لأندرويد، يعمل بدون إنترنت، وبياناتك مشفّرة في جوالك.">
+<meta name="description" content="بدل الدفتر الورقي: سجّل من عليه دين وكم وبأي عملة (ريال جديد، ريال قديم، سعودي، دولار)، وذكّر الزبون بالواتساب بضغطة، وحدّد موعد السداد ليصلك تنبيه، وسجّل ديونك عند الموردين. مجاني لأندرويد، يعمل بدون إنترنت، وبياناتك مشفّرة في جوالك.">
 <link rel="canonical" href="https://momabdu7777-maker.github.io/dafter/">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta property="og:type" content="website">
@@ -30,7 +30,7 @@
   "@type": "MobileApplication",
   "name": "دفتر نوفيكسا",
   "alternateName": "Novixa Ledger",
-  "description": "دفتر ديون الزبائن للبقالات والمحلات الصغيرة: رصيد كل زبون بكل عملة بدون تحويل، تذكير بالواتساب، كشف حساب PDF، نسخ احتياطي مشفّر. يعمل بدون إنترنت.",
+  "description": "دفتر ديون الزبائن للبقالات والمحلات الصغيرة: رصيد كل زبون بكل عملة بدون تحويل، تذكير بالواتساب، مواعيد سداد مع تنبيه، سقف دين، ديون الموردين، تقارير، كشف حساب PDF، نسخ احتياطي مشفّر. يعمل بدون إنترنت.",
   "url": "https://momabdu7777-maker.github.io/dafter/",
   "image": "https://momabdu7777-maker.github.io/dafter/og.jpg",
   "screenshot": [
@@ -42,8 +42,8 @@
   "inLanguage": "ar",
   "operatingSystem": "Android 8.0+",
   "applicationCategory": "BusinessApplication",
-  "softwareVersion": "1.0.0",
-  "fileSize": "11MB",
+  "softwareVersion": "1.1.0",
+  "fileSize": "12MB",
   "downloadUrl": "https://momabdu7777-maker.github.io/dafter/dafter.apk",
   "installUrl": "https://momabdu7777-maker.github.io/dafter/dafter.apk",
   "isAccessibleForFree": true,
@@ -126,7 +126,7 @@ footer a{color:var(--teal);font-weight:700}
       <div class="b">بأي عملة؟<small>بدون أي تحويل</small></div>
     </div>
     <a class="btn primary" href="dafter.apk" download="dafter.apk">⬇ تحميل لأندرويد</a>
-    <p class="meta">مجاني · الإصدار 1.0 · 11 ميغابايت · أندرويد 8 فما فوق · يعمل بدون إنترنت</p>
+    <p class="meta">مجاني · الإصدار 1.1 · 12 ميغابايت · أندرويد 8 فما فوق · يعمل بدون إنترنت</p>
     <a class="btn secondary" href="dafter-64.apk" download="dafter-64.apk">نسخة الجوالات الحديثة (64 بت)</a>
     <p class="meta">جرّب الأولى؛ إذا قال جوالك «التطبيق غير متوافق» فحمّل نسخة الجوالات الحديثة.</p>
   </div>
@@ -150,6 +150,19 @@ footer a{color:var(--teal);font-weight:700}
   </section>
 
   <section>
+    <h2>جديد في الإصدار 1.1</h2>
+    <ul class="feats">
+      <li>🚚 <b>الموردون:</b> تبويب منفصل لما عليك للتجار والشركات — «اشتريت بالدين» و«سدّدت له»</li>
+      <li>📅 <b>موعد السداد:</b> بكرة، بعد أسبوع، أول الشهر… ويصلك تنبيه الساعة 9 صباح يوم الموعد، حتى بدون إنترنت</li>
+      <li>⏰ <b>المستحقة:</b> قائمة بالمتأخرين ومن موعدهم اليوم، و«متأخر 5 يوم» بجانب الاسم</li>
+      <li>🚧 <b>سقف الدين:</b> حدّ لكل زبون، وتحذير قبل أن يتجاوزه</li>
+      <li>📣 <b>تذكير الجميع:</b> رسالة واتساب لكل من عليه دين، واحداً بعد الآخر بضغطة «التالي»</li>
+      <li>📊 <b>التقارير:</b> كم دين جديد وكم تحصيل اليوم أو هذا الشهر، وأقدم الديون التي لم تُسدَّد</li>
+    </ul>
+    <p class="note">عندك الإصدار 1.0؟ حمّل الجديد وثبّته فوقه مباشرة؛ كل زبائنك وحركاتك تبقى كما هي.</p>
+  </section>
+
+  <section>
     <h2>العملات</h2>
     <div class="cur"><span>ريال يمني جديد (عدن)</span><span>ريال يمني قديم (صنعاء)</span><span>ريال سعودي</span><span>دولار</span></div>
     <p class="note">كل عملة رصيدها لوحدها ولا يوجد أي تحويل بينها، تماماً مثل دفترك. تختار العملات التي تتعامل بها عند أول تشغيل.</p>
@@ -168,7 +181,7 @@ footer a{color:var(--teal);font-weight:700}
       <li>🔔 تذكير لطيف إذا مرّ أسبوع بدون نسخة</li>
       <li>١٢٣ أرقام عربية أو هندية</li>
       <li>🔋 لا يعمل في الخلفية ولا يستهلك البطارية</li>
-      <li>📱 خفيف على الجوالات القديمة (11 ميغابايت)</li>
+      <li>📱 خفيف على الجوالات القديمة (12 ميغابايت)</li>
     </ul>
   </section>
 
@@ -198,9 +211,9 @@ footer a{color:var(--teal);font-weight:700}
     <h2>التحقق من الملف</h2>
     <p class="note">بصمة SHA-256 للملفات الرسمية (موقّعة من Novixa):</p>
     <code>dafter.apk<br>
-4bf32dfd8ef7cdfc22cf408282dca085aeed9ed9e284d271dd852901e74010a0</code>
+ec1899907ee3a01aac1cd84fdeaa9756a9f76daa3afd103a1f9d2a63dcc0fbde</code>
     <code>dafter-64.apk<br>
-40a47c779111438ea99f3d4a34e929879e4f9100dea264039090e5f2a08e5556</code>
+d476871d27671231ace0159dd76939ae3970c17041004b409f5f56eb2874ac6c</code>
   </section>
 
   <footer>© 2026 <a href="https://novixa.dev/">Novixa</a> · المكلا، حضرموت · ومن تطبيقاتنا أيضاً: <a href="https://hakeem-games.novixa.dev/">ألعاب حكيم</a></footer>
